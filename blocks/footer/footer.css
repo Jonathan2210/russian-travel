@@ -1,4 +1,5 @@
 .footer {
+    border: 2px red solid;
     margin: 92px auto 24px auto;
     display: flex;
     justify-content: space-between;
