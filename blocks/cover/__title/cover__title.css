@@ -1,10 +1,10 @@
 .cover__title {
     position: relative;
-    top: 245px;
+    padding-top: 245px;
     color: white;
     max-width: 560px;
     margin: 0 auto;
-    font-family: 'Inter';
+    font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
@@ -15,13 +15,13 @@
 
 @media screen and (max-width: 1279px) {
     .cover__title {
-        top: 195px;
+        padding-top: 195px;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .cover__title {
-        top: 115px;
+        padding-top: 115px;
     }
 }
 
@@ -32,6 +32,6 @@
         font-size: 32px;
         line-height: 35px;
         margin: 0 auto;
-        top: 33px;
+        padding-top: 33px;
     }
 }
